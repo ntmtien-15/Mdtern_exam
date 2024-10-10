@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125901481280",
+    "project_id": "midternexam",
+    "storage_bucket": "midternexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125901481280:android:57f9b122f365ea086406a5",
+        "android_client_info": {
+          "package_name": "com.example.midtern_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu9Iia9U1-rxy7DJHt-kP8suznl1d-sYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
