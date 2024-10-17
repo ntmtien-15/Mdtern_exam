@@ -95,7 +95,7 @@ class _ProductManagerState extends State<ProductManager> {
             TextField(
               controller: priceController,
               keyboardType: TextInputType.number,
-              decoration: InputDecoration(labelText: 'Giá sản phẩm'),
+              decoration: InputDecoration(labelText: 'Giá sản phẩm'), 
             ),
             Row(
               children: [
@@ -119,7 +119,7 @@ class _ProductManagerState extends State<ProductManager> {
                   if (!snapshot.hasData) { //kiem tra luong có cung cap dl k ?
                     return Center(child: CircularProgressIndicator());
                   }
-                  var products = snapshot.data.docs; //lấy lại ds sp
+                  var products = snapshot.data.docs; //lấy lại ds
                   return ListView.builder( //hien thi ds sp
                     itemCount: products.length,
                     itemBuilder: (context, index) {
@@ -140,12 +140,6 @@ class _ProductManagerState extends State<ProductManager> {
                           trailing: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              // IconButton(
-                              //   icon: Icon(Icons.edit, color: Colors.yellow),
-                              //   onPressed: () {
-                              //     // Chức năng chỉnh sửa
-                              //   },
-                              // ),
                               IconButton(
                                 icon: Icon(Icons.delete, color: Colors.red),
                                 onPressed: () {
